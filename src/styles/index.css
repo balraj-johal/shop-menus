@@ -1,0 +1,39 @@
+.MainContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+  height: 100%;
+  color: white;
+  padding-inline: 4%;
+}
+
+.Column {
+  padding: 4% 0;
+  height: 100%;
+}
+
+.MenuItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.125rem;
+  font-size: 1.25rem;
+}
+
+.MenuItem--Price {
+  font-variant-numeric: tabular-nums;
+}
+
+section {
+  background-color: #32B7FF;
+  margin-top: 2.5em;
+  position: relative;
+  padding-block: 2.25rem 1.5em;
+  padding-inline: 2rem;
+
+  h1 {
+    position: absolute;
+    top: -1.45em;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+}

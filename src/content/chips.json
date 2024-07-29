@@ -1,0 +1,30 @@
+[
+  {
+    "item": "Cone",
+    "price": "£1.40"
+  },
+  {
+    "item": "Bag",
+    "price": "£1.70"
+  },
+  {
+    "item": "Large Bag",
+    "price": "£2.70"
+  },
+  {
+    "item": "Cheesy Chips",
+    "price": "£2.50"
+  },
+  {
+    "item": "Large Cheesy Chips",
+    "price": "£3.50"
+  },
+  {
+    "item": "Chip Butty",
+    "price": "£1.50"
+  },
+  {
+    "item": "Scallop",
+    "price": "£0.50"
+  }
+ ]

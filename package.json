@@ -6,6 +6,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@remotion/cli": "4.0.180",
+    "@remotion/google-fonts": "^4.0.188",
     "@remotion/zod-types": "4.0.180",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -23,7 +24,7 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "start": "remotionb studio",
+    "dev": "remotionb studio",
     "render:menu-main": "remotionb render MenuMain out/menu-main.mp4",
     "upgrade": "remotionb upgrade",
     "test": "eslint src && tsc"
