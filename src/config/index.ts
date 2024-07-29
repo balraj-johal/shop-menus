@@ -1,0 +1,2 @@
+export const FRAMES_PER_SECOND = 24;
+export const MINUTE_IN_FRAMES = FRAMES_PER_SECOND * 60;
