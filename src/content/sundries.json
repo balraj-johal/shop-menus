@@ -1,0 +1,18 @@
+[
+  {
+    "item": "Bread & Butter",
+    "price": "£0.50"
+  },
+  {
+    "item": "Small Pots of Curry/Peas/Gravy",
+    "price": "£1.00"
+  },
+  {
+    "item": "Large Pots of Curry/Peas/Gravy",
+    "price": "£1.50"
+  },
+  {
+    "item": "Pickled Egg/Onion",
+    "price": "£0.70"
+  }
+]

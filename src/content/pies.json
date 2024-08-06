@@ -1,0 +1,34 @@
+[
+  {
+    "item": "Chicken & Mushroom",
+    "price": "£3.50"
+  },
+  {
+    "item": "Steak, Steak & Kidney",
+    "price": "£3.50"
+  },
+  {
+    "item": "All Steak",
+    "price": "£3.50"
+  },
+  {
+    "item": "Meat & Pototato",
+    "price": "£3.50"
+  },
+  {
+    "item": "Beef & Onion",
+    "price": "£3.50"
+  },
+  {
+    "item": "Chicken Balti",
+    "price": "£3.80"
+  },
+  {
+    "item": "Pasties",
+    "price": "£3.00"
+  },
+  {
+    "item": "Patties",
+    "price": "£2.50"
+  }
+ ]

@@ -1,6 +1,6 @@
 import "./styles/index.css";
 
-import { useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
 
 import Four from "./components/Specials/Four";
 import Three from "./components/Specials/Three";
@@ -18,24 +18,26 @@ export const SpecialsMenu = () => {
 
   const component = (() => {
     if (frameInLoop > 12 * FRAMES_PER_SECOND) return (
-      <Four />
+      <Four key="four" />
     )
     if (frameInLoop > 8 * FRAMES_PER_SECOND) return (
-      <Three />
+      <Three key="three" />
     )
     if (frameInLoop > 4 * FRAMES_PER_SECOND) return (
-      <Two />
+      <Two key="two" />
     )
     return (
-      <One />
+      <One key="one" />
     )
   })()
 
   return (
-    <AnimatePresence mode="wait">
-      <div className="Test">
-        {component}
-      </div>
-    </AnimatePresence>
+    <AbsoluteFill style={{backgroundColor: "var(--blue-background)", fontSize: "12rem", color: "white"}}>
+      <AnimatePresence mode="wait">
+        <div className="Test" key={component.key}>
+          {component}
+        </div>
+      </AnimatePresence>
+    </AbsoluteFill>
   )
 };

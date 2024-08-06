@@ -1,3 +1,8 @@
+:root {
+  --blue-background: #2B5C8F;
+  --blue-foreground: #32B7FF;
+}
+
 .MainContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -20,6 +25,16 @@
   }
 }
 
+.SectionList {
+  display: flex;
+  flex-direction: column;
+
+  &.centered {
+    justify-content: center;
+    height: 100%;
+  }
+}
+
 .MenuItem {
   display: flex;
   justify-content: space-between;
@@ -33,7 +48,7 @@
 }
 
 section {
-  background-color: #32B7FF;
+  background-color: var(--blue-foreground);
   margin-top: 2.5em;
   position: relative;
   padding-block: 2.25rem 1.5em;
@@ -45,8 +60,4 @@ section {
     text-transform: uppercase;
     font-size: 3rem;
   }
-}
-
-.Test {
-  font-size: 12rem;
 }

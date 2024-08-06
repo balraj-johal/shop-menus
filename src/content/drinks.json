@@ -1,26 +1,22 @@
 [
   {
-    "item": "1 Piece Chicken",
+    "item": "Cans",
+    "price": "£1.20"
+  },
+  {
+    "item": "500ml Bottle",
+    "price": "£1.70"
+  },
+  {
+    "item": "Big Bottle",
+    "price": "£2.50"
+  },
+  {
+    "item": "Tea",
     "price": "£2.00"
   },
   {
-    "item": "1 Piece Chicken & Chips",
-    "price": "£4.00"
-  },
-  {
-    "item": "2 Pieces Chicken & Chips",
-    "price": "£5.80"
-  },
-  {
-    "item": "Roasted Chicken Breast",
-    "price": "£4.50"
-  },
-  {
-    "item": "4 Chicken Wings",
+    "item": "Coffee",
     "price": "£2.00"
-  },
-  {
-    "item": "4 Chicken Wings & Chips",
-    "price": "£3.70"
   }
  ]

@@ -1,17 +1,43 @@
 import { Composition } from "remotion";
-import { MenuMain } from "./MenuMain";
 import { SpecialsMenu } from "./SpecialsMenu";
 import { MINUTE_IN_FRAMES } from "./config";
+import { MenuOne } from "./MenuOne";
+import { MenuFour } from "./MenuFour";
+import { MenuThree } from "./MenuThree";
+import { MenuTwo } from "./MenuTwo";
 
-// Each <Composition> is an entry in the sidebar!
+import "./styles/index.css";
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        // You can take the "id" to render a video:
-        // npx remotion render src/index.ts <id> out/video.mp4
-        id="MenuMain"
-        component={MenuMain}
+        id="MenuOne"
+        component={MenuOne}
+        durationInFrames={MINUTE_IN_FRAMES * 15}
+        fps={24}
+        width={1280}
+        height={720}
+      />
+      <Composition
+        id="MenuTwo"
+        component={MenuTwo}
+        durationInFrames={MINUTE_IN_FRAMES * 15}
+        fps={24}
+        width={1280}
+        height={720}
+      />
+      <Composition
+        id="MenuThree"
+        component={MenuThree}
+        durationInFrames={MINUTE_IN_FRAMES * 15}
+        fps={24}
+        width={1280}
+        height={720}
+      />
+      <Composition
+        id="MenuFour"
+        component={MenuFour}
         durationInFrames={MINUTE_IN_FRAMES * 15}
         fps={24}
         width={1280}
@@ -19,8 +45,6 @@ export const RemotionRoot: React.FC = () => {
       />
 
       <Composition
-        // You can take the "id" to render a video:
-        // npx remotion render src/index.ts <id> out/video.mp4
         id="SpecialsMenu"
         component={SpecialsMenu}
         durationInFrames={MINUTE_IN_FRAMES * 16}

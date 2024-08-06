@@ -3,13 +3,14 @@ import { AbsoluteFill } from "remotion";
 
 const Two = () => {
   return (
-    <AbsoluteFill style={{backgroundColor: "yellow"}}>
+    <AbsoluteFill>
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -10 }}
         transition={{duration: 1}}
       >
-        Help
+        2
       </motion.div>
     </AbsoluteFill>
   )
