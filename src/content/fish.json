@@ -1,0 +1,34 @@
+[
+  {
+    "item": "large Cod",
+    "price": "£6.50"
+  },
+  {
+    "item": "Mini Cod",
+    "price": "£3.70"
+  },
+  {
+    "item": "Large Plaice",
+    "price": "£6.50"
+  },
+  {
+    "item": "scampi",
+    "price": "£3.70"
+  },
+  {
+    "item": "Fresh Roe",
+    "price": "£4.50"
+  },
+  {
+    "item": "Tinned Roe",
+    "price": "£2.00"
+  },
+  {
+    "item": "Fish Cake",
+    "price": "£2.00"
+  },
+  {
+    "item": "3 Fish Fingers",
+    "price": "£1.50"
+  }
+ ]

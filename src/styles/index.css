@@ -8,18 +8,27 @@
 }
 
 .Column {
-  padding: 4% 0;
+  padding: 10% 0;
   height: 100%;
+  margin-top: -2.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5%;
+
+  section:last-of-type {
+    flex-grow: 1;
+  }
 }
 
 .MenuItem {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.125rem;
+  margin-bottom: 0.25rem;
   font-size: 1.25rem;
+  text-transform: capitalize;
 }
 
-.MenuItem--Price {
+.MenuItem-Price {
   font-variant-numeric: tabular-nums;
 }
 

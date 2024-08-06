@@ -1,0 +1,38 @@
+[
+  {
+    "item": "Cheese Burger",
+    "price": "£3.50"
+  },
+  {
+    "item": "Double Cheese Burger",
+    "price": "£4.50"
+  },
+  {
+    "item": "Chicken Fillet Burger",
+    "price": "£3.50"
+  },
+  {
+    "item": "Zinger Burger",
+    "price": "£4.00"
+  },
+  {
+    "item": "Double Zinger Burger",
+    "price": "£5.00"
+  },
+  {
+    "item": "Veggie Burger",
+    "price": "£3.50"
+  },
+  {
+    "item": "Donner Meat Burger",
+    "price": "£3.70"
+  },
+  {
+    "item": "Chicken Meat Burger",
+    "price": "£3.70"
+  },
+  {
+    "item": "Mixed Meat Burger",
+    "price": "£4.00"
+  }
+ ]

@@ -1,0 +1,30 @@
+[
+  {
+    "item": "Donner Kebab",
+    "price": "£6.00"
+  },
+  {
+    "item": "Chicken Kebab",
+    "price": "£6.00"
+  },
+  {
+    "item": "Mixed Kebab",
+    "price": "£6.50"
+  },
+  {
+    "item": "Portion Doner Meat",
+    "price": "£6.00"
+  },
+  {
+    "item": "Portion Chicken Meat",
+    "price": "£6.00"
+  },
+  {
+    "item": "Portion Mixed Meat",
+    "price": "£6.50"
+  },
+  {
+    "item": "Up grade to large portion",
+    "price": "£1.00"
+  }
+ ]

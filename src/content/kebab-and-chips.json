@@ -1,0 +1,26 @@
+[
+  {
+    "item": "Donner & chips",
+    "price": "£5.50"
+  },
+  {
+    "item": "large Donner & chips",
+    "price": "£6.50"
+  },
+  {
+    "item": "Medium Chicken & chips",
+    "price": "£5.50"
+  },
+  {
+    "item": "Large Chicken & Chips",
+    "price": "£6.50"
+  },
+  {
+    "item": "Medium mixed meat & chips",
+    "price": "£6.00"
+  },
+  {
+    "item": "Large mixed meat & chips",
+    "price": "£7.00"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "item": "Small Sausage",
+    "price": "£1.20"
+  },
+  {
+    "item": "Sausage",
+    "price": "£2.00"
+  },
+  {
+    "item": "Small Battered Sausage",
+    "price": "£1.40"
+  },
+  {
+    "item": "Battered Sausage",
+    "price": "£2.20"
+  },
+  {
+    "item": "Savaloy",
+    "price": "£2.00"
+  }
+ ]

@@ -1,30 +1,34 @@
 [
   {
     "item": "Cone",
-    "price": "£1.40"
-  },
-  {
-    "item": "Bag",
-    "price": "£1.70"
-  },
-  {
-    "item": "Large Bag",
-    "price": "£2.70"
-  },
-  {
-    "item": "Cheesy Chips",
     "price": "£2.50"
   },
   {
+    "item": "Bag",
+    "price": "£3.00"
+  },
+  {
+    "item": "Large Bag",
+    "price": "£4.00"
+  },
+  {
+    "item": "Cheesy Chips",
+    "price": "£3.70"
+  },
+  {
     "item": "Large Cheesy Chips",
-    "price": "£3.50"
+    "price": "£4.70"
   },
   {
     "item": "Chip Butty",
-    "price": "£1.50"
+    "price": "£2.70"
   },
   {
     "item": "Scallop",
-    "price": "£0.50"
+    "price": "£0.70"
+  },
+  {
+    "item": "Scallop in Bun",
+    "price": "£1.70"
   }
  ]
